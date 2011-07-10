@@ -1,0 +1,35 @@
+<mockup version="1.0" skin="sketch" measuredW="1038" measuredH="494" mockupW="978" mockupH="474">
+  <controls>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::TextArea" x="60" y="20" w="-1" h="-1" measuredW="200" measuredH="140" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>BambooSource%0A%09type%20%28rss%2Crest%29%0A%09url%0A%09username%0A%09password</text>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::Arrow" x="260" y="60" w="189" h="38" measuredW="150" measuredH="100" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>1%3An</text>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::TextArea" x="449" y="26" w="-1" h="-1" measuredW="200" measuredH="140" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>BambooProject%0A%09name</text>
+      </controlProperties>
+    </control>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::TextArea" x="838" y="26" w="-1" h="-1" measuredW="200" measuredH="140" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>BambooBuildPlan%0A%09name%0A%09state</text>
+      </controlProperties>
+    </control>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::Arrow" x="649" y="77" w="189" h="38" measuredW="150" measuredH="100" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>1%3An</text>
+      </controlProperties>
+    </control>
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::Paragraph" x="341" y="315" w="674" h="179" measuredW="200" measuredH="140" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>0</color>
+        <text>*%20BambooSource%20will%20be%20managed%20by%20crud%20builtin%0A*%20after%20that%20a%20thread%20will%20fetch+parse+evaluate%0A*%20evaluate%20means%20persist%20to%20db%20or%20call%20url%20to%20%28de%29activate%20a%20beacon%20or%20something%20like%20that%0A*%20BambooProject%20and%20BambooBuildPlan%20will%20be%20created%20from%20parser%27s</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
