@@ -5,9 +5,10 @@
         <text>A%20Web%20Page%0Ahttp%3A//</text>
       </controlProperties>
     </control>
-    <control controlID="1" controlTypeID="com.balsamiq.mockups::ButtonBar" x="275" y="141" w="-1" h="-1" measuredW="213" measuredH="29" zOrder="1" locked="false" isInGroup="-1">
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::ButtonBar" x="275" y="141" w="-1" h="-1" measuredW="273" measuredH="29" zOrder="1" locked="false" isInGroup="-1">
       <controlProperties>
-        <text>Wallboard%27s%2CAdministration</text>
+        <selectedIndex>1</selectedIndex>
+        <text>Home%2CWallboard%27s%2CAdministration</text>
       </controlProperties>
     </control>
     <control controlID="2" controlTypeID="com.balsamiq.mockups::PieChart" x="314" y="224" w="328" h="279" measuredW="180" measuredH="180" zOrder="2" locked="false" isInGroup="-1"/>

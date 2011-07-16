@@ -5,10 +5,10 @@
         <text/>
       </controlProperties>
     </control>
-    <control controlID="1" controlTypeID="com.balsamiq.mockups::ButtonBar" x="323" y="140" w="-1" h="-1" measuredW="213" measuredH="29" zOrder="1" locked="false" isInGroup="-1">
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::ButtonBar" x="323" y="140" w="-1" h="-1" measuredW="273" measuredH="29" zOrder="1" locked="false" isInGroup="-1">
       <controlProperties>
-        <selectedIndex>1</selectedIndex>
-        <text>Wallboard%27s%2CAdministration</text>
+        <selectedIndex>2</selectedIndex>
+        <text>Home%2CWallboard%27s%2CAdministration</text>
       </controlProperties>
     </control>
     <control controlID="3" controlTypeID="com.balsamiq.mockups::VerticalTabBar" x="267" y="209" w="842" h="367" measuredW="200" measuredH="163" zOrder="2" locked="false" isInGroup="-1">
