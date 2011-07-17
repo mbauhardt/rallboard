@@ -46,15 +46,19 @@ SimpleNavigation::Configuration.run do |navigation|
     #
     # primary.item :key_1, 'name', url, options
 	primary.item :home, 'Home', '/'
-	primary.item :wallboard, 'Wallboard', '/wallboard'
+	primary.item :wallboard, 'Wallboard', '/wallboard' do |wallboard_nav|
+	  wallboard_nav.item :bamboo_wallboard, 'Bamboo', '/wallboard/bamboo'
+      wallboard_nav.item :jira_wallboard, 'Jira', '/wallboard/jira'
+      wallboard_nav.item :github_wallboard, 'Github', '/wallboard/github'
+	end
     # Add an item which has a sub navigation (same params, but with block)
     # primary.item :key_2, 'name', url, options do |sub_nav|
-	primary.item :administration, 'Administration', '/administration' do |sub_nav|
+	primary.item :administration, 'Administration', '/administration' do |admin_nav|
       # Add an item to the sub navigation (same params again)
       # sub_nav.item :key_2_1, 'name', url, options
-	  sub_nav.item :bamboo, 'Bamboo', '/administration/bamboo'
-      sub_nav.item :jira, 'Jira', '/administration/jira'
-      sub_nav.item :github, 'Github', '/administration/github'
+	  admin_nav.item :bamboo_administration, 'Bamboo', '/administration/bamboo'
+      admin_nav.item :jira_administration, 'Jira', '/administration/jira'
+      admin_nav.item :github_administration, 'Github', '/administration/github'
     end
 
     # You can also specify a condition-proc that needs to be fullfilled to display an item.
