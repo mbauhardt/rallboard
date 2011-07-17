@@ -1,6 +1,25 @@
 Rallboard::Application.routes.draw do
+  get "wallboard/index"
+
+  get "wallboard/bamboo"
+
+  get "wallboard/jira"
+
+  get "wallboard/github"
+
+  get "administration/index"
+
+  get "administration/bamboo"
+
+  get "administration/jira"
+
+  get "administration/github"
+
   get "home/index"
 
+  match "/wallboard" => "wallboard#index"
+  match "/administration" => "administration#index"
+    
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
