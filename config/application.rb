@@ -37,7 +37,8 @@ module Rallboard
     config.encoding = "utf-8"
 	
 	config.generators do |g|
-		g.template_engine :haml
+		g.template_engine :haml,
+		g.orm :datamapper
 	end
 
     # Configure sensitive parameters which will be filtered from the log file.

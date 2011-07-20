@@ -5,10 +5,28 @@ gem 'rails', '3.0.9'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
+#gem 'sqlite3'
 gem 'simple-navigation'
 gem 'haml'
 gem 'haml-rails'
+
+
+# MYSQL
+gem 'data_objects', '0.10.2'
+gem 'do_mysql', '0.10.2'
+gem 'ruby-mysql', '2.9.3'
+
+#DataMapper
+gem 'dm-core', '1.0.0'
+gem 'dm-timestamps', '1.0.0'
+gem 'dm-migrations', '1.0.0'
+gem 'dm-aggregates', '1.0.0'
+gem 'dm-types', '1.0.0'
+gem 'dm-validations', '1.0.0'
+gem 'dm-is-list', '1.0.0'
+gem 'dm-mysql-adapter', '1.0.0'
+gem 'dm-rails', '1.0.0'
+
 
 # Use unicorn as the web server
 # gem 'unicorn'
