@@ -17,15 +17,15 @@ gem 'do_mysql', '0.10.2'
 gem 'ruby-mysql', '2.9.3'
 
 #DataMapper
-gem 'dm-core', '1.0.0'
-gem 'dm-timestamps', '1.0.0'
-gem 'dm-migrations', '1.0.0'
-gem 'dm-aggregates', '1.0.0'
-gem 'dm-types', '1.0.0'
-gem 'dm-validations', '1.0.0'
-gem 'dm-is-list', '1.0.0'
-gem 'dm-mysql-adapter', '1.0.0'
-gem 'dm-rails', '1.0.0'
+gem 'dm-core', '1.1.0'
+gem 'dm-timestamps', '1.1.0'
+gem 'dm-migrations', '1.1.0'
+gem 'dm-aggregates', '1.1.0'
+gem 'dm-types', '1.1.0'
+gem 'dm-validations', '1.1.0'
+gem 'dm-is-list', '1.1.0'
+gem 'dm-mysql-adapter', '1.1.0'
+gem 'dm-rails', '1.1.1', :git => 'git://github.com/datamapper/dm-rails'
 
 
 # Use unicorn as the web server
