@@ -1,6 +1,4 @@
 Rallboard::Application.routes.draw do
-  resources :bamboo_sources
-
   get "wallboard/index"
 
   get "wallboard/bamboo"
